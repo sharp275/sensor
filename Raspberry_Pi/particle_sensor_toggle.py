@@ -27,7 +27,7 @@ from sensor_functions import *
 # How often to read data; choose only 100 or 300 seconds for this demo
 # because the sensor should be on for at least one minute before reading
 # its data.
-cycle_period = CYCLE_PERIOD_100_S 
+cycle_period = CYCLE_PERIOD_300_S 
 
 # Which particle sensor, if any, is attached 
 # (PARTICLE_SENSOR_X with X = PPD42, SDS011, or OFF)

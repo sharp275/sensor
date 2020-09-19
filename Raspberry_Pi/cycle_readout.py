@@ -19,11 +19,11 @@ from sensor_functions import *
 # USER-EDITABLE SETTINGS
 
 # How often to read data (every 3, 100, 300 seconds)
-cycle_period = CYCLE_PERIOD_3_S 
+cycle_period = CYCLE_PERIOD_300_S 
 
 # Which particle sensor, if any, is attached 
 # (PARTICLE_SENSOR_X with X = PPD42, SDS011, or OFF)
-particleSensor = PARTICLE_SENSOR_OFF
+particleSensor = PARTICLE_SENSOR_SDS011
 
 # How to print the data: If print_data_as_columns = True,
 # data are columns of numbers, useful to copy/paste to a spreadsheet

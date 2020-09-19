@@ -23,7 +23,7 @@ from sensor_constants import *
 # The interrupt pins are not used in all examples.
 light_int_pin = 7 # Raspberry Pi pin 7 connects to LIT
 sound_int_pin = 8 # Raspberry Pi pin 8 connects to SIT
-READY_pin = 11    # Raspberry Pi pin 11 connects to RDY
+READY_pin = 13    # Raspberry Pi pin 11 connects to RDY Chnaged to 13 due needing pin 11 for E-ink Display
 # In addition to these GPIO pins, the following I2C and power 
 # connections must be made: 
 # Raspberry Pi pin 3 to SDA
